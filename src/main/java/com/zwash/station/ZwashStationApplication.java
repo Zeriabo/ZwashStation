@@ -1,4 +1,4 @@
-package com.zwash.car;
+package com.zwash.station;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
