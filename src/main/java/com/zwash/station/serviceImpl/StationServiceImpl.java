@@ -149,7 +149,7 @@ public class StationServiceImpl implements StationService {
 	 @Override
 	public Station createStation(StationDTO stationDTO,Long serviceProviderId) throws  Exception{
 		return null;
-
+//service provider id 
 //		ServiceProvider serviceProvider = serviceProviderService.getServiceProvider(serviceProviderId);
 //
 //		if(serviceProvider != null)
@@ -190,7 +190,7 @@ public class StationServiceImpl implements StationService {
 	 }
 	@Override
 	public Station updateStation(Station station) throws StationNotExistsException {
-		// TODO Auto-generated method stub
+
 		Station existingStation = getStation(station.getId());
 
 		// Update the station properties
