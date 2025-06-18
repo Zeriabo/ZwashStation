@@ -4,8 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
-@ComponentScan("com.zwash.common.repository")
+@SpringBootApplication(scanBasePackages = {
+	    "com.zwash.car",
+	    "com.zwash.station",
+	    "com.zwash.common",
+	    "com.zwash.auth"
+	})
 public class ZwashStationApplication {
 
 	public static void main(String[] args) {

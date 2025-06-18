@@ -11,9 +11,6 @@ import com.zwash.common.pojos.Media;
 import com.zwash.common.pojos.Station;
 import com.zwash.station.exceptions.StationNotExistsException;
 
-
-
-
 @Service
 public interface StationService extends Serializable {
 

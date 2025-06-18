@@ -33,8 +33,7 @@ public class StationServiceImpl implements StationService {
 	@Autowired
 	private CarWashingProgramRepository carWashingProgramRepository;
 
-	@Autowired
-//	private ServiceProviderService serviceProviderService;
+
 
 	@Override
 	public Station getStation(Long id) throws StationNotExistsException {

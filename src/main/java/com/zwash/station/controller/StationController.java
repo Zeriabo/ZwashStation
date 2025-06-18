@@ -36,12 +36,12 @@ public class StationController {
 	private StationService stationService;
 
 	@ApiOperation("Get all stations")
-	@GetMapping("/")
+	@GetMapping
 	public ResponseEntity<List<Station> > getAllStations() {
 		  List<Station> list = stationService.getAllStations();
 	        return ResponseEntity.ok(list);
 	}
-
+	
 
 	@ApiOperation("Get all station washes")
 	@GetMapping("/washes")
